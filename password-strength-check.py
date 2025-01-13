@@ -35,7 +35,7 @@ def check_password_strength(password: str) -> Tuple[str, str]:
     elif score == 3:
         return "Moderate", "Your password is moderate. " + " ".join(feedback)
     else:
-        return "Weak", "Your password is weak. " + " ".join(feedback)
+        return "Weak", 
 
 # Example use case
 password = input("Enter a password to test: ")
